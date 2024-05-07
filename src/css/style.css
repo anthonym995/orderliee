@@ -44,6 +44,9 @@ p {
     color: black;
     font-family: poppins-bold;
 }
+.navbar-brand {
+	padding: 0 !important;
+}
 .navbar-toggler-icon{
    filter: invert(1) !important;
 }
@@ -72,6 +75,7 @@ p {
 }
 .search-bar {
     background-color: white;
+	border: 1px solid transparent;
     border-radius: 23px;
     display: flex;
 	align-items: center;
@@ -110,7 +114,7 @@ input[type="search"]::-webkit-search-results-decoration {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .navbar.scrolled .search-bar {
-	background-color: lightgrey;
+	border: 1px solid #F7941C;
 }
 .navbar.scrolled .sidebar {
     background-color: white;
